@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="calculadora" role="region" aria-labelledby="titulo-calculadora">
+        <h1 id="titulo-calculadora" class="visually-hidden">Calculadora</h1>
+
+        <div class="pantalla" aria-live="polite" aria-atomic="true">0</div>
+
+        <button id="c" class="btn" aria-label="Limpiar pantalla">C</button>
+        <button id="borrar" class="btn" aria-label="Borrar último carácter">←</button>
+        <button class="btn" aria-label="Dividir">/</button>
+        <button class="btn" aria-label="Multiplicar">*</button>
+        <button class="btn" aria-label="Siete">7</button>
+        <button class="btn" aria-label="Ocho">8</button>
+        <button class="btn" aria-label="Nueve">9</button>
+        <button class="btn" aria-label="Restar">-</button>
+        <button class="btn" aria-label="Cuatro">4</button>
+        <button class="btn" aria-label="Cinco">5</button>
+        <button class="btn" aria-label="Seis">6</button>
+        <button class="btn" aria-label="Sumar">+</button>
+        <button class="btn" aria-label="Uno">1</button>
+        <button class="btn" aria-label="Dos">2</button>
+        <button class="btn" aria-label="Tres">3</button>
+        <button id="igual" class="btn" aria-label="Calcular resultado">=</button>
+        <button id="cero" class="btn" aria-label="Cero">0</button>
+        <button class="btn" aria-label="Punto decimal">.</button>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
